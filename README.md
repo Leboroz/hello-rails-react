@@ -1,24 +1,94 @@
-# README
+![](https://img.shields.io/static/v1?label=BY&message=Leonardo&color=purple)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hello-rails-react
 
-Things you may want to cover:
+In order to work on this project, you need to have the following dependencies installed: 
 
-* Ruby version
+- [Ruby](https://www.ruby-lang.org/en/) 
+- [Postgresql](https://www.postgresql.org/)
+- [Yarn](https://yarnpkg.com/)
+- [bundler](https://rudbyonrails.org/)
 
-* System dependencies
+## Built With
 
-* Configuration
+- Languages: _**Ruby 3.1.1, HTML, CSS**_
+- Frameworks: _**Ruby On Rails**_, _**React**_
+- Technologies used: _**Neovim**_
 
-* Database creation
+## Getting Started
 
-* Database initialization
+### Clone this repository
 
-* How to run the test suite
+```bash
+$ git clone git@github.com:Leboroz/budget-app.git
+$ cd budget-app
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Commands to run
 
-* Deployment instructions
+Run 
+```bash
+$ bundle install 
+```
 
-* ...
+To get all the gems required for the project
+
+Then, run
+
+```bash
+$ yarn install 
+```
+To install packages such as style linters
+
+To check linters locally, use
+```bash
+$ rubocop
+$ npx stylelint "**/*.scss"
+```
+
+Once you have the project correctly set up, run 
+```bash
+$ bin/rails db:setup
+```
+
+To run all migrations, create the database for testing and for development, and insert some data into the database for you to visualize the changes
+
+Finally, each time you make changes to the project, run 
+
+```bash
+$ bundle exec rspec /spec
+```
+
+In the root folder to check the consistency of the app. Please don't make changes to the tests unless completely necessary, and mention it in your PR description. 
+
+Important note: Since this project uses Bootstrap for the styling, you need to run: 
+
+```bash
+$ ./bin/dev
+```
+
+For you to see the styling being applied in the browser during development
+
+## Authors
+
+ 👤 **LeonardoAlbornoz**
+
+
+ Platform | Badge |
+ --- | --- |
+ **GitHub**:   | [@Leboroz](https://github.com/leboroz)
+ **Twitter**:  | [@Leboroz](https://twitter.com/leboroz)
+ **LinkedIn**: | [Leonardo Albornoz](https://linkedin.com/in/leboroz)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Acknowledgements
+
+  [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) the [author of the original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+
+## Show your support
+
+Give a ⭐️ if you like this project! ...
